@@ -1,6 +1,8 @@
 File Locator
 ============
 
+[![Build Status](https://travis-ci.org/herrera-io/php-file-locator.png)](http://travis-ci.org/herrera-io/php-file-locator)
+
 A simple file locator library.
 
 Usage

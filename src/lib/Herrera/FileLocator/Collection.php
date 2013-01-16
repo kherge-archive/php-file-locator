@@ -59,7 +59,7 @@ class Collection implements LocatorInterface
             }
         }
 
-        return $first ? null : $paths;
+        return $first ? null : array_values(array_unique($paths));
     }
 
     /**

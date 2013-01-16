@@ -62,9 +62,11 @@ class CollectionTest extends TestCase
         touch($file1 = "$dir1/test");
         touch($file2 = "$dir2/test");
 
-        $locator = new FileSystemLocator(array($dir1, $dir2));
+        $locator1 = new FileSystemLocator(array($dir1, $dir2));
+        $locator2 = new FileSystemLocator(array($dir1, $dir2)); // for unique test
 
-        $this->collection->add($locator);
+        $this->collection->add($locator1);
+        $this->collection->add($locator2);
 
         $this->assertEquals(
             array(realpath($file1), realpath($file2)),

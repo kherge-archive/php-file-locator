@@ -2,7 +2,7 @@
     "name": "herrera-io/file-locator",
     "description": "A simple file locator library.",
     "keywords": ["file", "locator"],
-    "homepage": "https://herrera-io.github.com/php-file-locator",
+    "homepage": "http://herrera-io.github.com/php-file-locator",
     "license": "MIT",
     "authors": [
         {
